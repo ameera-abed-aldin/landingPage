@@ -1,0 +1,46 @@
+@import "./base.css";
+header {
+  padding: 20px 0;
+  box-shadow: 1px 1px 10px #ededed;
+}
+header .logo {
+  gap: 3px;
+}
+header .logo img:first-of-type {
+  width: 35px;
+}
+header .logo img:last-of-type {
+  width: 100px;
+}
+header .container {
+  justify-content: space-between;
+}
+nav ul {
+  gap: 2rem;
+}
+nav ul li a {
+  color: var(--heading-color);
+  font-size: 1rem;
+  font-weight: 400;
+}
+header .auth {
+  gap: 0.7rem;
+} 
+
+header .auth a {
+  border: 1px solid var(--main-color);
+  display:inline-block;
+  width:160px;
+  padding:.6rem 0;
+  border-radius: .5rem;
+  text-align: center;
+  color:var(--main-color);
+  font-weight: 500;
+ 
+  
+}
+header  .auth a:last-of-type{
+    background-color: var(--main-color);
+    color:var(--sub-heading-color)
+}
+
