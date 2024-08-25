@@ -1,32 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>landing page</title>
-    <link rel="stylesheet" href="./assest/css/main.css">
-</head>
-<body>
-    <header>
-        <div class="container flex">
-            <div class="logo flex">
-                <img src="./assest/img/Logo.svg" alt="logo img">
-                <img src="./assest/img/logoText.svg" alt="logo text" class="h">
+    <link rel="stylesheet" href="./assest/css/media.css" />
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="container flex">
+        <div class="logo flex">
+          <img src="./assest/img/Logo.svg" alt="logo img" class="logo-img" />
+          <img
+            src="./assest/img/logoText.svg"
+            alt="logo text"
+            class="logo-text"
+          />
+        </div>
+        <nav class="primary-nav">
+          <ul class="flex">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Course</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Article</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="auth flex">
+          <a href="#" class="login btn">Login</a>
+          <a href="#" class="register btn">Register</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- start  first section-->
+      <section>
+        <div class="container row">
+          <div class="hero-start flex-column">
+            <p class="top-hint">Lets<span>Begins</span></p>
+            <h1>Let's Find The Right <span>Course</span> For you</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              dignissim, sem non convallis molestie.
+            </p>
+            <div class="button-cont flex">
+              <a href="#" class="btn">Rigister</a>
+              <div class="play-vidio-cont flex">
+                <img src="./assest/img/play-btn.svg" alt="play btn" />
+                <p>Play Video</p>
+              </div>
             </div>
-            <nav>
-                <ul class="flex">
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">Course</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Article</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="auth flex">
-                <a href="#" class="login">Login</a>
-                <a href="#" class="register">Register</a>
+          </div>
+          <div class="hero-end flex">
+            <img src="./assest/img/hero1.svg" alt="hero img" />
+          </div>
+        </div>
+      </section>
+      <!-- end first section-->
+      <!-- start  second section-->
+      <section>
+        <div class="second-section-start">
+          <p class="top-hint">WHAT WE GIVE</p>
+          <h2>what do you get from us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+            dignissim, sem non convallis molestie.
+          </p>
+        </div>
+        <div class="second-section-end"></div>
+      </section>
+      <!-- end  second section-->
+      <!-- start  third section-->
+      <section class="take-course">
+        <div class="container row">
+            <div class="third-section-start">
+              <img
+                src="./assest/img/peopl-taking-course.svg"
+                alt="people taking course img"
+              />
+            </div>
+            <div class="third-section-end flex-column">
+              <p class="sub">SELECTED COURSE</p>
+              <h2>people taking courses</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                dignissim, sem non convallis molestie.
+              </p>
+           
+              <div class="courses-overview flex">
+              <div class="flex overview">
+                <p class="number">6000</p>
+                <p class="name">people views</p>
+              </div>
+              <div class="flex overview">
+                <p class="number">4000</p>
+                <p class="name">user</p>
+              </div>
+              <div class="flex overview">
+                <p class="number">100</p>
+                <p class="name">courses</p>
+              </div>
             </div>
         </div>
-    </header>
-</body>
+      </section>
+      <!-- end third section-->
+      <!--  start fourth section-->
+      <section class="fourth-section">
+        <div class="container row">
+            <div class="fourth-section-start flex">
+              <div class="card flex-column">
+                <div class="img-background flex-column">
+                  <div class="lable">best courses</div>
+                  <div class="price">20$ usd</div>
+                </div>
+                <div class="course-details flex">
+                  <h3 class="course-name">HTML & CSS</h3>
+                  <p class="views">1,500 Views</p>
+                </div>
+                <div class="course-general-details flex">
+                  <p>120 Videos</p>
+                  <p>2 Teacher</p>
+                </div>
+                </div>
+                <!-- card number 2-->
+                <div class="card flex-column">
+                  <div class="img-background flex-column">
+                    <div class="lable">best courses</div>
+                    <div class="price">20$ usd</div>
+                  </div>
+                  <div class="course-details flex">
+                    <h3 class="course-name">HTML & CSS</h3>
+                    <p class="views">1,500 Views</p>
+                  </div>
+                  <div class="course-general-details flex">
+                    <p>120 Videos</p>
+                    <p>2 Teacher</p>
+                  </div>
+                  </div>
+                    <!-- card number 3-->
+                    <div class="card flex-column">
+                      <div class="img-background flex-column">
+                        <div class="lable">best courses</div>
+                        <div class="price">20$ usd</div>
+                      </div>
+                      <div class="course-details flex">
+                        <h3 class="course-name">HTML & CSS</h3>
+                        <p class="views">1,500 Views</p>
+                      </div>
+                      <div class="course-general-details flex">
+                        <p>120 Videos</p>
+                        <p>2 Teacher</p>
+                      </div>
+                      </div>
+                        <!-- card number 4-->
+                        <div class="card flex-column">
+                          <div class="img-background flex-column">
+                            <div class="lable">best courses</div>
+                            <div class="price">20$ usd</div>
+                          </div>
+                          <div class="course-details flex">
+                            <h3 class="course-name">HTML & CSS</h3>
+                            <p class="views">1,500 Views</p>
+                          </div>
+                          <div class="course-general-details flex">
+                            <p>120 Videos</p>
+                            <p>2 Teacher</p>
+                          </div>
+                          </div>
+                          </div>
+             
+            
+            <div class="fourth-section-end  flex-column">
+                <p class="">AVAILABLE FOR YOU</p>
+                <h2>Available Courses</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim, sem non convallis molestie.</p>
+                <a href="#" class="btn">see all</a>
+            </div>
+        </div>
+      </section>
+      <!--  end fourth section-->
+            <!--  start fivth section-->
+              <section class="fivth-section">
+                <div class="container row">
+                    <div class="testmonial-card">
+                        <div class="personal-inform">
+                            <img src="./assest/img/finki-img.png" alt="personal img">
+                            <div class="details">
+                                <h3 class="client-name"></h3>
+                                <p class="job">client</p>
+                            </div>
+                        </div>
+                        <img src="./assest/img/stars.svg" alt="stars img review">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum dapibus luctus. “ </p>
+                    </div>
+                    <!---->
+                    <div class="testmonial-card">
+                        <div class="personal-inform">
+                            <img src="./assest/img/frink-img.svg" alt="personal img">
+                            <div class="details">
+                                <h3 class="client-name"></h3>
+                                <p class="job">client</p>
+                            </div>
+                        </div>
+                        <img src="./assest/img/stars.svg" alt="stars img review">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum dapibus luctus. “ </p>
+                    </div>
+                </div>
+              </section>
+               <!--  end fivth section-->
+    </main>
+    <!--start footer-->
+    <footer>
+
+    </footer>
+     <!--end footer-->
+  </body>
 </html>
