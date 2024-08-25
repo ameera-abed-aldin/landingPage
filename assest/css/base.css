@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
+
 :root {
   --main-color: #545be8;
   --heading-color: #141e32;
@@ -14,6 +16,25 @@
   --preghraph2-color: #dddddd;
   --font-family-base: "Poppins", sans-serif;
   --font-family-secondery: "Inter", sans-serif;
+  --fs-pergragh:1rem;
+  --fs-heading:3.5rem;
+  --fs-subheading:2.5rem;
+  --fs-smallheading:1.2rem;
+  --fw-regular:400;
+  --fw-semi-bold:600;
+  --fw-blod:800;
+  --section-spacing:1rem;
+}
+
+
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
 }
 a {
   text-decoration: none;
@@ -24,16 +45,50 @@ ul {
 }
 .flex {
   display: flex;
-  flex-wrap: wrap;
+
   align-items: center;
 }
 .container {
   width: 80%;
-  margin: 0 auto;
+  margin-inline:auto;
 }
 body{
     font-family: var(--font-family-base);
+    line-height: 1.2;
 }
 .active{
     font-weight: 900;
+}
+p{
+  font-size:  clamp(0.7rem, 0.5963rem + 0.4486vw, var(--fs-pergragh));
+  font-weight: var(--fw-regular);
+  color:var(--preghraph1-color);
+}
+h1{
+  font-size:  clamp(1.3rem, 0.5393rem + 3.2897vw, var(--fs-heading));;
+  font-weight: var(--fw-blod);
+  color:var(--heading-color);
+  max-width:12ch;
+}
+h2{
+  font-size: clamp(1.5rem, 1.1542rem + 1.4953vw, var(--fs-subheading));;
+  font-weight: var(--fw-semi-bold);
+  color:var(--heading-color);
+  
+}
+h3{
+font-size:var(--fs-smallheading);
+font-weight: var(--fw-semi-bold);
+color:var(--heading-color);
+}
+.img{
+  display:block;
+}
+.flex-column{
+  display:flex;
+  flex-direction: column;
+  gap:2rem;
+}
+.row{
+  display:flex;
 }
