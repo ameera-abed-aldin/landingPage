@@ -1,5 +1,5 @@
 @import './main.css';
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 750px) {
   
     .row {
       flex-direction: column;
@@ -14,32 +14,31 @@
     }
     .hero-start,
   .third-section-start,.third-section-end {
-      width: 100%;
+      
       padding: 0 2rem;
+      
     }
-     h1,p,.third-section-end p{
-        max-width:100%;
+    .hero-start h1,p,.third-section-end p,.third-section-end h2,.third-section-end,.third-section-start,.hero-start{
+       width:100%;
         text-align: center;
+        max-width:100%;
     }
-    .fivth-section .testmonial-card{
+    .fivth-section .testmonial-card,.fourth-section-start .card{
         width:100%;
     }
-    .fourth-section-start{
-        justify-content: center;
-    }
-    .fourth-section-start .card{
-        width:100%;
-    }
-    .button-cont{
+   
+   
+    .button-cont,.courses-overview,.fourth-section-start{
         justify-content: center;
     }
     .fourth-section-start{
-        padding: 5rem 0rem 5rem 0;
+        padding: 5rem 2rem 5rem 2rem;
     }
+   
   }
 @media screen and (max-width: 800px) {
   .container {
-   max-width: 100%;
+   width: 100%;
   }
  .auth{
     display:none;
