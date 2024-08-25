@@ -12,14 +12,14 @@
     .top-hint{
         text-align: start;
     }
-    .hero-start,
-  .third-section-start,.third-section-end {
-      
-      padding: 0 2rem;
-      
+  
+    .padding-middle {
+        padding: 0 2rem;
     }
-    .hero-start h1,p,.third-section-end p,.third-section-end h2,.third-section-end,.third-section-start,.hero-start{
-       width:100%;
+   
+    .change-width,p,
+    .third-section-end h2,.third-section-end p{
+        width:100%;
         text-align: center;
         max-width:100%;
     }
