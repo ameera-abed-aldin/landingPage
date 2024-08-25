@@ -13,11 +13,11 @@
         text-align: start;
     }
     .hero-start,
-  .third-section-start {
+  .third-section-start,.third-section-end {
       width: 100%;
       padding: 0 2rem;
     }
-     h1,p{
+     h1,p,.third-section-end p{
         max-width:100%;
         text-align: center;
     }
@@ -41,4 +41,12 @@
   .container {
    max-width: 100%;
   }
+ .auth{
+    display:none;
+ }
+}
+@media screen and (max-width: 1200px) {
+    .primary-nav{
+        display:none;
+      }
 }
