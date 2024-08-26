@@ -32,17 +32,30 @@
     gap:1rem;
   }
   .button-cont,
-  .courses-overview,
+  .courses-overview,footer .logo ,
+  .social-media-icons,
   .fourth-section-start {
     justify-content: center;
   }
   .fourth-section-start {
     padding: 5rem 2rem 5rem 2rem;
   }
+  .col{
+    margin-bottom: 1rem;
+  }
+  footer .container {
+   
+   grid-template-columns: 1fr;
+   gap:0;
+    
+  }
+  .nav-cont{
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media screen and (max-width: 850px) {
   .container {
-width: 100%;
+    width: 100%;
   }
   .auth {
     display: none;
@@ -63,6 +76,7 @@ width: 100%;
   .fourth-section-end {
     align-items: center;
   }
+
 }
 @media screen and  (max-width: 576px) {
     .fourth-section-start .card {
