@@ -50,11 +50,12 @@ ul {
 }
 .container {
   width: 80%;
-  margin-inline:auto;
+  margin:0 auto;
 }
 body{
     font-family: var(--font-family-base);
     line-height: 1.2;
+  
 }
 .active{
     font-weight: 900;

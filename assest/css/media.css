@@ -1,51 +1,73 @@
-@import './main.css';
+@import "./main.css";
 @media only screen and (max-width: 750px) {
-  
-    .row {
-      flex-direction: column;
-    }
-    .hero-start{
-        order:3;
-        margin-top:3rem;
-        margin-bottom: 3rem;
-    }
-    .top-hint{
-        text-align: start;
-    }
-  
-    .padding-middle {
-        padding: 0 2rem;
-    }
-   
-    .change-width,p,
-    .third-section-end h2,.third-section-end p{
-        width:100%;
-        text-align: center;
-        max-width:100%;
-    }
-    .fivth-section .testmonial-card,.fourth-section-start .card{
-        width:100%;
-    }
-   
-   
-    .button-cont,.courses-overview,.fourth-section-start{
-        justify-content: center;
-    }
-    .fourth-section-start{
-        padding: 5rem 2rem 5rem 2rem;
-    }
-   
+  .row {
+    flex-direction: column;
   }
-@media screen and (max-width: 800px) {
+  .hero-start {
+    order: 3;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  .top-hint {
+    text-align: start;
+  }
+
+  .change-width,
+  p,
+  .third-section-end h2,
+  .third-section-end p {
+    width: 100%;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .fivth-section .testmonial-card {
+    width: 100%;
+  }
+  .fourth-section-start .card {
+    width: 80%;
+  }
+
+  .button-cont,
+  .courses-overview,
+  .fourth-section-start {
+    justify-content: center;
+  }
+  .fourth-section-start {
+    padding: 5rem 2rem 5rem 2rem;
+  }
+}
+@media screen and (max-width: 830px) {
   .container {
-   width: 100%;
+    width: 100%;
   }
- .auth{
-    display:none;
- }
+  .auth {
+    display: none;
+  }
+  .fourth-section .container {
+    flex-wrap: wrap;
+  }
+  .padding-middle {
+    padding: 0 2rem;
+  }
+  .margin-add {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .change-width-l {
+    width: 100%;
+  }
+  .fourth-section-end {
+    align-items: center;
+  }
+}
+@media screen and  (max-width: 576px) {
+    .fourth-section-start .card {
+        width: 95%;
+      }
 }
 @media screen and (max-width: 1200px) {
-    .primary-nav{
-        display:none;
-      }
+  .primary-nav {
+    display: none;
+  }
 }
