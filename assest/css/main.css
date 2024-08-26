@@ -1,9 +1,8 @@
 @import "./base.css";
 
-
 header {
   padding: 20px 0;
-  box-shadow:-6px 2px 16px #e4e4e4;
+  box-shadow: -6px 2px 16px #e4e4e4;
 }
 header .logo {
   gap: 3px;
@@ -52,9 +51,9 @@ header .auth .login {
   font-weight: 500;
   background-color: transparent;
 }
-.hero-start .top-hint span{
- font-weight: var(--fw-semi-bold);
- display:block;
+.hero-start .top-hint span {
+  font-weight: var(--fw-semi-bold);
+  display: block;
 }
 .hero-start,
 .third-section-start {
@@ -68,7 +67,7 @@ header .auth .login {
 }
 .hero-end img {
   width: 90%;
-  
+
   display: block;
 }
 .hero-start span {
@@ -86,14 +85,14 @@ header .auth .login {
   width: 100%;
 }
 .third-section-end p {
- max-width: 40ch;
+  max-width: 40ch;
   color: var(--preghraph2-color);
 }
 
 .top-hint {
-  margin-top:1rem;
+  margin-top: 1rem;
   color: var(--main-color);
-display:block;
+  display: block;
 }
 .hero-start img {
   width: 27px;
@@ -120,7 +119,7 @@ display:block;
 .third-section-end .sub {
   color: var(--secondery-color);
 }
-.courses-overview{
+.courses-overview {
   justify-content: space-between;
 }
 .courses-overview .overview {
@@ -136,17 +135,13 @@ display:block;
   font-weight: var(--fw-semi-bold);
 }
 
-
-
-
 .course-details,
 .course-general-details {
   padding: 1rem;
 }
-.course-general-details{
-  padding-top:0;
+.course-general-details {
+  padding-top: 0;
 }
-
 
 /* section four */
 .fourth-section .container {
@@ -155,7 +150,6 @@ display:block;
 }
 .fourth-section-end {
   width: 35%;
- 
 }
 .fourth-section-start {
   flex-wrap: wrap;
@@ -163,86 +157,118 @@ display:block;
   padding: 5rem 5rem 5rem 0;
   row-gap: 1.5rem;
 }
- .card {
+.card {
   width: 48%;
   border-radius: 0.5rem;
   gap: 0.2rem;
   overflow: hidden;
   box-shadow: 1px 1px 10px #cbc6c6;
 }
- .img-background {
+.img-background {
   background-image: url("../img/html.png");
   background-position: center;
   background-size: cover;
   height: 15rem;
-  color:var(--sub-heading-color);
-font-weight: var(--fw-semi-bold);
+  color: var(--sub-heading-color);
+  font-weight: var(--fw-semi-bold);
   justify-content: space-between;
 }
-.lable{
-  background-color:var(--main-color) ;
-  width:fit-content;
-  padding:.5rem .3rem;
-  margin-top:1rem;
- 
-  
-  
+.lable {
+  background-color: var(--main-color);
+  width: fit-content;
+  padding: 0.5rem 0.3rem;
+  margin-top: 1rem;
 }
-.price{
-  align-self:end;
+.price {
+  align-self: end;
   margin-bottom: 1rem;
   font-size: 1.5rem;
-  
-  
 }
-.course-details{
+.course-details {
   justify-content: space-between;
 }
-.views{
-  color:var(--main-color);
-  font-size: .8rem;
+.views {
+  color: var(--main-color);
+  font-size: 0.8rem;
 }
-.course-general-details{
-  gap:1rem
+.course-general-details {
+  gap: 1rem;
 }
-.img2{
+.img2 {
   background-image: url("../img/photographer.png");
 }
-.img3{
+.img3 {
   background-image: url("../img/javascript.png");
 }
-.img4{
+.img4 {
   background-image: url("../img/Desain-Grafis.png");
 }
-.avalibal{
-  color:var(--main-color)
+.avalibal {
+  color: var(--main-color);
 }
 /* section five */
 
-.testmonial-card-cont{
+.testmonial-card-cont {
   justify-content: space-between;
- 
 }
-.fivth-section h2{
+.fivth-section h2 {
   text-align: center;
 }
 
-.testmonial-card{
-width:49%;
-box-shadow: -6px 2px 16px #e4e4e4; 
-padding: 1.5rem;
-background: top right url('../img/Vector.svg') no-repeat;
-background-size: 60px;
-
+.testmonial-card {
+  width: 49%;
+  box-shadow: -6px 2px 16px #e4e4e4;
+  padding: 1.5rem;
+  background: top right url("../img/Vector.svg") no-repeat;
+  background-size: 60px;
 }
 
-
-.personal-inform{
-  gap:.7rem;
+.personal-inform {
+  gap: 0.7rem;
 }
-.personal-img{
-  width:60px;
+.personal-img {
+  width: 60px;
 }
-.star{
-  width:160px;
+.star {
+  width: 160px;
+}
+/*footer */
+footer {
+  background-color: #393e46;
+  margin-top: 2rem;
+  padding: 4rem 0;
+}
+footer nav a,
+footer p {
+  color: var(--footer-pregh-color);
+  font-size: .8rem;
+}
+footer .container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 0.5rem;
+}
+.nav-cont{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+footer .nav {
+  gap: 0.5rem;
+}
+footer .logo {
+  gap: 0.5rem;
+}
+.footer-pergh {
+  width: 90%;
+}
+.social-media-icon {
+  width: 30px;
+  height: 30px;
+}
+footer .nav a:first-child{
+  font-weight: var(--fw-semi-bold);
+  margin-bottom: .5rem;
+  font-size: 1rem;
+  color:var(--sub-heading-color);
 }
