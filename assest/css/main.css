@@ -86,7 +86,7 @@ header .auth .login {
   width: 100%;
 }
 .third-section-end p {
-  width: 40ch;
+ max-width: 40ch;
   color: var(--preghraph2-color);
 }
 
@@ -135,34 +135,10 @@ display:block;
   font-size: 1.2rem;
   font-weight: var(--fw-semi-bold);
 }
-.fourth-section .container {
-  justify-content: space-between;
-  align-items: baseline;
-}
-.fourth-section-end {
-  width: 35%;
- 
-}
-.fourth-section-start {
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 5rem 5rem 5rem 0;
-  row-gap: 1.5rem;
-}
 
-.fourth-section-start .card {
-  width: 48%;
-  border-radius: 0.5rem;
-  gap: 0.5rem;
-  overflow: hidden;
-  box-shadow: 1px 1px 10px #cbc6c6;
-}
-.card .img-background {
-  background-image: url("../img/html.png");
-  background-position: center;
-  background-size: cover;
-  height: 15rem;
-}
+
+
+
 .course-details,
 .course-general-details {
   padding: 1rem;
@@ -191,4 +167,73 @@ width:45%;
 box-shadow: 1px 1px 10px #cbc6c6; 
 padding: 1.5rem;
 
+}
+/* section four */
+.fourth-section .container {
+  justify-content: space-between;
+  align-items: baseline;
+}
+.fourth-section-end {
+  width: 35%;
+ 
+}
+.fourth-section-start {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5rem 5rem 5rem 0;
+  row-gap: 1.5rem;
+}
+ .card {
+  width: 48%;
+  border-radius: 0.5rem;
+  gap: 0.2rem;
+  overflow: hidden;
+  box-shadow: 1px 1px 10px #cbc6c6;
+}
+ .img-background {
+  background-image: url("../img/html.png");
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  color:var(--sub-heading-color);
+font-weight: var(--fw-semi-bold);
+  justify-content: space-between;
+}
+.lable{
+  background-color:var(--main-color) ;
+  width:fit-content;
+  padding:.5rem .3rem;
+  margin-top:1rem;
+ 
+  
+  
+}
+.price{
+  align-self:end;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  
+  
+}
+.course-details{
+  justify-content: space-between;
+}
+.views{
+  color:var(--main-color);
+  font-size: .8rem;
+}
+.course-general-details{
+  gap:1rem
+}
+.img2{
+  background-image: url("../img/photographer.png");
+}
+.img3{
+  background-image: url("../img/javascript.png");
+}
+.img4{
+  background-image: url("../img/Desain-Grafis.png");
+}
+.avalibal{
+  color:var(--main-color)
 }
