@@ -3,7 +3,7 @@
 
 header {
   padding: 20px 0;
-  box-shadow: 1px 1px 10px #ededed;
+  box-shadow:-6px 2px 16px #e4e4e4;
 }
 header .logo {
   gap: 3px;
@@ -146,28 +146,8 @@ display:block;
 .course-general-details{
   padding-top:0;
 }
-.personal-inform{
-  width:80px;
-}
-.personal-inform img{
-  width:100%;
-}
-.fivth-section{
- 
-  padding: 2rem;
- 
-}
-.fivth-section  .container{
-  justify-content: center;
-  gap:1rem;
 
-}
-.fivth-section .testmonial-card{
-width:45%;
-box-shadow: 1px 1px 10px #cbc6c6; 
-padding: 1.5rem;
 
-}
 /* section four */
 .fourth-section .container {
   justify-content: space-between;
@@ -236,4 +216,33 @@ font-weight: var(--fw-semi-bold);
 }
 .avalibal{
   color:var(--main-color)
+}
+/* section five */
+
+.testmonial-card-cont{
+  justify-content: space-between;
+ 
+}
+.fivth-section h2{
+  text-align: center;
+}
+
+.testmonial-card{
+width:49%;
+box-shadow: -6px 2px 16px #e4e4e4; 
+padding: 1.5rem;
+background: top right url('../img/Vector.svg') no-repeat;
+background-size: 60px;
+
+}
+
+
+.personal-inform{
+  gap:.7rem;
+}
+.personal-img{
+  width:60px;
+}
+.star{
+  width:160px;
 }
