@@ -61,10 +61,15 @@
   .second-section-start{
     margin-bottom: 1rem;
   }
+  
 }
 @media screen and (max-width: 850px) {
+ 
   .container {
     width: 100%;
+  }
+  header .container{
+    padding-inline: 1rem;
   }
   .auth {
     display: none;
@@ -88,6 +93,9 @@
   }
   .second-section{
     padding-inline: 1rem;
+  }
+  .display-none{
+    display:inline-block;
   }
 
 }

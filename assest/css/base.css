@@ -95,3 +95,6 @@ color:var(--heading-color);
 .row{
   display:flex;
 }
+.display-none{
+  display: none;
+}
