@@ -74,11 +74,10 @@ header .auth .login {
   color: var(--main-color);
 }
 .third-section-end {
-  width: 35%;
+  width: 37%;
   justify-content: center;
 }
 .third-section-end h2 {
- 
   color: var(--sub-heading-color);
 }
 .third-section-start img {
@@ -103,6 +102,52 @@ header .auth .login {
 .play-vidio-cont {
   gap: 0.4rem;
 }
+/*second section*/
+.second-section{
+  padding-left: 8rem;
+  padding-top:7rem;
+  padding-bottom: 5rem;
+  padding-right: 1rem;
+  background-color: var(--background-color);
+  align-items: stretch;
+}
+.second-section-start{
+gap:.5rem;
+padding-right: 1.5rem;
+}
+
+.second-section-end{
+  width:70%;
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-self: end;
+
+}
+.second-section-card{
+  background-color: var(--main-color);
+  padding:1.5rem;
+  gap:.7rem;
+  width:30%;
+  flex-shrink: 0;
+  border-radius: .5rem;
+
+}
+.second-section-card h4{
+  font-size:.9rem;
+  color: var(--sub-heading-color);
+}
+
+.second-section-card p{
+ font-size: .7rem;
+ color:var(--preghraph2-color)
+}
+.second-section-img{
+  width:35px;
+  background-color: white;
+  border-radius: 50%;
+  padding:.3rem;
+}
+/* end second section*/
 .take-course {
   padding: 2rem 0;
   gap: 2rem;
@@ -123,7 +168,6 @@ header .auth .login {
   justify-content: space-between;
 }
 .courses-overview .overview {
-  width: 30%;
   flex-direction: column;
   color: var(--preghraph2-color);
   text-align: center;
@@ -241,14 +285,14 @@ footer {
 footer nav a,
 footer p {
   color: var(--footer-pregh-color);
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 footer .container {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: 0.5rem;
 }
-.nav-cont{
+.nav-cont {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0.5rem;
@@ -266,9 +310,9 @@ footer .logo {
   width: 30px;
   height: 30px;
 }
-footer .nav a:first-child{
+footer .nav a:first-child {
   font-weight: var(--fw-semi-bold);
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 1rem;
-  color:var(--sub-heading-color);
+  color: var(--sub-heading-color);
 }
