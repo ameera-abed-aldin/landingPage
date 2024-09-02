@@ -74,7 +74,9 @@
   .auth {
     display: none;
   }
-
+.course-details{
+  text-align: start;
+}
   .fourth-section .container {
     flex-wrap: wrap;
   }
