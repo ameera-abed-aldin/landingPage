@@ -39,6 +39,11 @@ header .auth {
   background-color: var(--main-color);
   color: var(--sub-heading-color);
   font-weight: 500;
+  transition: color .5s ease;
+}
+.btn:hover{
+  background-color: var(--sub-heading-color);
+  color: var(--main-color);
 }
 
 header .auth .login {
@@ -126,7 +131,7 @@ padding-right: 1.5rem;
   justify-content: space-between;
   align-self: end;
 
-  
+
 }
 .second-section-card{
   background-color: var(--main-color);
