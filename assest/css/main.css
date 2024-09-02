@@ -242,9 +242,13 @@ padding-right: 1.5rem;
 .course-details {
   justify-content: space-between;
 }
+.course-details h3{
+  width:60%;
+}
 .views {
+  width:30%;
   color: var(--main-color);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 .course-general-details {
   gap: 1rem;
