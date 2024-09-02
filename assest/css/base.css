@@ -85,6 +85,7 @@ color:var(--heading-color);
 }
 .img{
   display:block;
+  
 }
 .flex-column{
   display:flex;
@@ -93,4 +94,7 @@ color:var(--heading-color);
 }
 .row{
   display:flex;
+}
+.display-none{
+  display: none;
 }
