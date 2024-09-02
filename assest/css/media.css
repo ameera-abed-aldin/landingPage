@@ -91,6 +91,9 @@
   .fourth-section-end {
     align-items: center;
   }
+  .first-section{
+    padding-inline: 1.5rem;
+  }
   .second-section{
     padding-inline: 1rem;
   }
